@@ -55,4 +55,5 @@ Version installed in the system can be tested out using the following commands:
   <li><b>GET</b> -  http://localhost:3000/tasks, initially you will see '[]' empty array.</li>
   <li><b>POST</b> - http://localhost:3000/tasks and select '<b>x-www-form-urlencoded</b>' and enter '<b>name</b>' as key and 'My first todo list'     as value.</li>
   <li><b>GET</b> -  http://localhost:3000/tasks, initially you will see the list added in the 2nd step.</li>
+  <li><b>GET</b> -  http://localhost:3000/tasks/:id, Provides an individual task present in the complete list.</li>
 </ol>
