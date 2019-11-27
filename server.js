@@ -7,7 +7,12 @@ var express = require('express'),
   
 // mongoose instance connection url connection
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/Tododb'); 
+mongoose.connect('mongodb://localhost/Tododb')
+.then(() => {
+  console.log('Connection with MongoDB established successfully!');
+}).catch((error) => {
+  console.log('Connection got rejected with the error: '+ error);
+});
 
 
 app.use(bodyParser.urlencoded({ extended: true }));
