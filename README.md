@@ -30,6 +30,7 @@ RESTful applications use HTTP requests to perform Create, Read, Update and Delet
 ## Kick starting
 
 We are working on creating REST API's. Let's work on creating RESTful todo List API.
+Basically, creating CRUD (Create, Read, Update and Delete) operations.
 
 ## Pre-requisites
 
