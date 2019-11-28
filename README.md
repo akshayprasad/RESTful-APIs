@@ -23,7 +23,7 @@ RESTful applications use HTTP requests to perform Create, Read, Update and Delet
 <ol>
   <li>Node.js</li>
   <li>MongoDB</li>
-  <li>Text editor(Preferrable Visual Studio)</li>
+  <li>Text editor(Visual Studio, Atom, Sublime, etc)</li>
   <li>Postman</li>
 </ol>
 
